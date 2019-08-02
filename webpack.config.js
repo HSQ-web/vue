@@ -17,7 +17,7 @@ module.exports = {
       filename: 'index.html' // 设置生成的内存页面的名称
     })
   ],
-  module: { // 配置所有第三方loader 模块的
+  module: {// 配置所有第三方loader 模块的
     rules: [ // 第三方模块的匹配规则
       { test: /\.css$/, use: ['style-loader', 'css-loader'] }, // 处理 CSS 文件的 loader
       { test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader'] }, // 处理 less 文件的 loader
